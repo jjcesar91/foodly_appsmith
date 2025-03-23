@@ -1,4 +1,3 @@
-# fly.toml app configuration file for Appsmith
 app = "foodly-appsmith-2xlm1q"
 primary_region = "fra"
 
@@ -19,5 +18,5 @@ primary_region = "fra"
   memory_mb = 1024
 
 [mounts]
-  source = "appsmith_data_single"
+  source = "fly_appsmith_data"
   destination = "/appsmith-stacks"
