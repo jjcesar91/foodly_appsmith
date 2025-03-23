@@ -1,0 +1,4 @@
+{
+	id: {{utils.randomizeUUID()}},
+	name: {{RestaurantName.text}}
+}

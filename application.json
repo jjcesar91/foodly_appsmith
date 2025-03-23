@@ -1,0 +1,31 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#F4FFDE",
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "Restaurants",
+      "isDefault": true
+    },
+    {
+      "id": "Restaurants Info",
+      "isDefault": false
+    },
+    {
+      "id": "Restaurant Menu",
+      "isDefault": false
+    },
+    {
+      "id": "Dish Info",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  }
+}

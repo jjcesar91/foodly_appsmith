@@ -1,0 +1,728 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": false,
+  "backgroundColor": "#fff",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 145,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.address.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.address.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.address.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_tel.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_tel.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_tel.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_email.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_email.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_email.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_whatsapp.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_whatsapp.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_whatsapp.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_fb.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_fb.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_fb.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_ig.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_ig.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.contact_ig.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.logo.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.logo.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.logo.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.thumbnail.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.thumbnail.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.thumbnail.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.rating.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.rating.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.rating.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.reviews_count.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.reviews_count.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.reviews_count.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.is_favorite.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.is_favorite.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.delivery_fee.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.delivery_fee.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.delivery_fee.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.delivery_time.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.delivery_time.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.delivery_time.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.categories.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.categories.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.categories.borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.is_favorite.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "fcwk23bwar",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 12,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "onSubmit": "{{SaveRestaurant.run();}}",
+  "originalBottomRow": 145,
+  "originalTopRow": 10,
+  "parentColumnSpace": 13.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "address": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "address",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.address))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "address",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Address",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "address",
+          "position": 2,
+          "sourceData": "C. Piragua, 5, 35625 Morro Jable, Fuerteventura, Spagna"
+        },
+        "categories": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "categories",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.categories))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Multiselect",
+          "identifier": "categories",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Categories",
+          "labelTextSize": "0.875rem",
+          "options": [
+            {
+              "label": "Blue",
+              "value": "BLUE"
+            },
+            {
+              "label": "Green",
+              "value": "GREEN"
+            },
+            {
+              "label": "Red",
+              "value": "RED"
+            }
+          ],
+          "originalIdentifier": "categories",
+          "position": 15,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "contact_email": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "contact_email",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.contact_email))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "contact_email",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Contact Email",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "contact_email",
+          "position": 4,
+          "sourceData": null
+        },
+        "contact_fb": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "contact_fb",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.contact_fb))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "contact_fb",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Contact Fb",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "contact_fb",
+          "position": 6,
+          "sourceData": null
+        },
+        "contact_ig": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "contact_ig",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.contact_ig))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "contact_ig",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Contact Ig",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "contact_ig",
+          "position": 7,
+          "sourceData": null
+        },
+        "contact_tel": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "contact_tel",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.contact_tel))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "contact_tel",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Contact Tel",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "contact_tel",
+          "position": 3,
+          "sourceData": null
+        },
+        "contact_whatsapp": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "contact_whatsapp",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.contact_whatsapp))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "contact_whatsapp",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Contact Whatsapp",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "contact_whatsapp",
+          "position": 5,
+          "sourceData": null
+        },
+        "delivery_fee": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "delivery_fee",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.delivery_fee))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "delivery_fee",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Delivery Fee",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "delivery_fee",
+          "position": 13,
+          "sourceData": 5
+        },
+        "delivery_time": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "delivery_time",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.delivery_time))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "delivery_time",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Delivery Time",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "delivery_time",
+          "position": 14,
+          "sourceData": "20-30 min"
+        },
+        "id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.id))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "id",
+          "isCustomField": false,
+          "isDisabled": "true",
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "id",
+          "position": 0,
+          "sourceData": "111e8661-2ff7-475d-afcf-1212e24fff92"
+        },
+        "is_favorite": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "is_favorite",
+          "alignWidget": "LEFT",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.is_favorite))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Switch",
+          "identifier": "is_favorite",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Is Favorite",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "is_favorite",
+          "position": 12,
+          "sourceData": false
+        },
+        "logo": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "logo",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.logo))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "logo",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Logo",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "logo",
+          "position": 8,
+          "sourceData": "https://res.cloudinary.com/dyktnqldf/image/upload/v1742166271/tapasmiguel_wvlofm.png"
+        },
+        "name": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "name",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.name))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "name",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Name",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "name",
+          "position": 1,
+          "sourceData": "Las Tapas de Miguel"
+        },
+        "rating": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "rating",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.rating))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "rating",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Rating",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "rating",
+          "position": 10,
+          "sourceData": 4.7
+        },
+        "reviews_count": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "reviews_count",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.reviews_count))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "reviews_count",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Reviews Count",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "reviews_count",
+          "position": 11,
+          "sourceData": 320
+        },
+        "thumbnail": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "accessor": "thumbnail",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.thumbnail))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "thumbnail",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Thumbnail",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "thumbnail",
+          "position": 9,
+          "sourceData": "https://res.cloudinary.com/dyktnqldf/image/upload/v1742166285/tapasmiguelogo_k3paxq.png"
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(RestaurantForm.sourceData, RestaurantForm.formData, RestaurantForm.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "address": "C. Piragua, 5, 35625 Morro Jable, Fuerteventura, Spagna",
+        "categories": [],
+        "contact_email": null,
+        "contact_fb": null,
+        "contact_ig": null,
+        "contact_tel": null,
+        "contact_whatsapp": null,
+        "delivery_fee": 5,
+        "delivery_time": "20-30 min",
+        "id": "111e8661-2ff7-475d-afcf-1212e24fff92",
+        "is_favorite": false,
+        "logo": "https://res.cloudinary.com/dyktnqldf/image/upload/v1742166271/tapasmiguel_wvlofm.png",
+        "name": "Las Tapas de Miguel",
+        "rating": 4.7,
+        "reviews_count": 320,
+        "thumbnail": "https://res.cloudinary.com/dyktnqldf/image/upload/v1742166285/tapasmiguelogo_k3paxq.png"
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": true,
+  "sourceData": "{{RestaurantById.data}}",
+  "submitButtonLabel": "Submit",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "Editar informaciones",
+  "topRow": 10,
+  "type": "JSON_FORM_WIDGET",
+  "useSourceData": false,
+  "version": 1,
+  "widgetId": "oxdpfrcj6q",
+  "widgetName": "RestaurantForm"
+}

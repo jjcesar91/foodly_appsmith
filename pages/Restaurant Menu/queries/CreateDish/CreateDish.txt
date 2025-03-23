@@ -1,0 +1,7 @@
+{
+	id: {{utils.randomizeUUID()}},
+	name: {{DishName.text}},
+	price: {{DishPrice.text}},
+	restaurant_id: {{appsmith.URL.queryParams.restaurant_id}},
+	category_id: {{DishCategory.selectedOptionValue}}
+}
